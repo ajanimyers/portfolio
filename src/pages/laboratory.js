@@ -7,7 +7,7 @@ const Laboratory = () => {
       <div className="container">
         <div className="laboratory">
           <h1>Laboratory</h1>
-          <p>Some code, and designs I did for fun.</p>
+          <p>Just random code snippets, and design things.</p>
           <div className="card-list">
             <div className="card">
               <div className="img"></div>
