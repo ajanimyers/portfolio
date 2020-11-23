@@ -1,0 +1,45 @@
+@import "./../styles/variables.scss";
+
+.portfolio {
+  margin-top: 2.4rem;
+}
+
+.portfolio h1 {
+  font-size: 4rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+}
+
+.img {
+  background: $primary-color;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .card-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card {
+    width: 45%;
+  }
+  .card:last-of-type {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    width: 30%;
+  }
+}

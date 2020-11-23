@@ -1,0 +1,29 @@
+@import "./../styles/variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  align-items: center;
+}
+
+.navbar-brand a {
+  color: $primary-color;
+  font-size: 2.4rem;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar-nav li {
+  margin-right: 1rem;
+}
+
+.navbar-nav li:last-of-type {
+  margin-right: 0;
+}
+
+.navbar-nav a {
+  color: #fff;
+}

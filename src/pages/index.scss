@@ -1,0 +1,56 @@
+@import "./../styles/variables.scss";
+
+h1,
+h2 {
+  letter-spacing: 0.4rem;
+}
+
+h1 span,
+h2 span {
+  color: $primary-color;
+}
+
+p {
+  color: #dbdbdb;
+}
+
+.hero {
+  margin: 8.8rem 0;
+}
+
+.social {
+  margin-top: 5rem;
+}
+
+.social ul {
+  display: flex;
+}
+
+.social li {
+  margin-right: 1.5rem;
+}
+
+.social a {
+  color: #fff;
+}
+/* Typography */
+
+.hero h1 {
+  font-size: 1.6rem;
+}
+
+.hero h2 {
+  font-size: 3.981rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero h2 {
+    font-size: 4.838rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero h2 {
+    font-size: 6.734rem;
+  }
+}

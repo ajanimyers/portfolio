@@ -1,0 +1,63 @@
+@import "./../styles/variables.scss";
+.faded-line {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.line {
+  border-left: 1px solid $primary-color;
+  height: 6vh;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  right: 1.3rem;
+}
+
+.line:nth-of-type(1) {
+  border-left: 1px solid rgba(0, 127, 255, 1);
+}
+
+.line:nth-of-type(2) {
+  border-left: 1px solid rgba(0, 127, 255, 0.9);
+}
+
+.line:nth-of-type(3) {
+  border-left: 1px solid rgba(0, 127, 255, 0.8);
+}
+
+.line:nth-of-type(4) {
+  border-left: 1px solid rgba(0, 127, 255, 0.7);
+}
+
+.line:nth-of-type(5) {
+  border-left: 1px solid rgba(0, 127, 255, 0.6);
+}
+
+.line:nth-of-type(6) {
+  border-left: 1px solid rgba(0, 127, 255, 0.5);
+}
+
+.line:nth-of-type(7) {
+  border-left: 1px solid rgba(0, 127, 255, 0.4);
+}
+
+.line:nth-of-type(8) {
+  border-left: 1px solid rgba(0, 127, 255, 0.3);
+}
+
+.line:nth-of-type(9) {
+  border-left: 1px solid rgba(0, 127, 255, 0.2);
+}
+
+.line:nth-of-type(10) {
+  border-left: 1px solid rgba(0, 127, 255, 0.1);
+}
