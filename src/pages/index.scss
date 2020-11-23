@@ -31,7 +31,12 @@ p {
 }
 
 .social a {
-  color: #fff;
+  color: #dbdbdb;
+  transition: all 1s;
+}
+
+.social a:hover {
+  color: $primary-color;
 }
 /* Typography */
 

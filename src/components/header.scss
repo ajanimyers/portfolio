@@ -3,6 +3,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 2rem 0;
   align-items: center;
 }
@@ -12,12 +13,34 @@
   font-size: 2.4rem;
 }
 
-.navbar-nav {
-  display: flex;
+.menu-icon span {
+  background: $primary-color;
+  height: 4px;
+  width: 33px;
+  margin-bottom: 5px;
+  display: block;
 }
 
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: $primary-color;
+}
+
+.show-nav {
+  max-height: 100%;
+}
 .navbar-nav li {
   margin-right: 1rem;
+  padding: 3rem 0;
 }
 
 .navbar-nav li:last-of-type {
@@ -26,4 +49,9 @@
 
 .navbar-nav a {
   color: #fff;
+  transition: all 0.7s;
+}
+
+.navbar-nav a:hover {
+  color: $primary-color;
 }

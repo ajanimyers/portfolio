@@ -1,0 +1,51 @@
+.card {
+  border-radius: 0.6rem;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  margin-bottom: 2.4rem;
+}
+
+.img {
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+  background: #dbdbdb;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+  padding: 1.5rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details a {
+  color: #dbdbdb;
+  margin-right: 1.5rem;
+}
+
+.details a:last-of-type {
+  margin-right: 0;
+}
+@media screen and (min-width: 768px) {
+  .card-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card {
+    width: 45%;
+  }
+  .card:last-of-type {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    width: 30%;
+  }
+}
