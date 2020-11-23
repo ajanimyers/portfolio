@@ -30,27 +30,6 @@ const Portfolio = () => {
                 <p>Coming Soon.</p>
               </div>
             </div>
-            <div className="card">
-              <div className="img"></div>
-              <div class="info">
-                <p>Stack: </p>
-                <p>Coming Soon.</p>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img"></div>
-              <div class="info">
-                <p>Stack: </p>
-                <p>Coming Soon.</p>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img"></div>
-              <div class="info">
-                <p>Stack: </p>
-                <p>Coming Soon.</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
