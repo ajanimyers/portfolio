@@ -4,7 +4,9 @@ import { Link } from "gatsby"
 import "./header.scss"
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false)
-  const handleClick = () => {}
+  const handleClick = () => {
+    setOpenMenu(!openMenu)
+  }
   return (
     <header>
       <div className="container">
@@ -12,12 +14,12 @@ const Header = () => {
           <div className="navbar-brand">
             <Link to="/">JM</Link>
           </div>
-          <div className="menu-icon">
+          <div className="menu-icon" onClick={handleClick}>
             <span></span>
             <span></span>
             <span></span>
           </div>
-          <ul className="navbar-nav">
+          <ul className={openMenu ? "navbar-nav show-nav" : "navbar-nav"}>
             <li>
               <Link to="/">
                 {"{ "}Home{" }"}
