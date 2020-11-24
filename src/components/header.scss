@@ -74,6 +74,7 @@
     display: none;
   }
   .navbar-nav {
+    justify-content: flex-end;
     flex-direction: row;
     max-height: 100%;
     width: 40%;
@@ -83,10 +84,10 @@
   .navbar-nav li {
     width: initial;
   }
-  .navbar-nav li {
+  .navbar-nav a {
     margin-right: 1.5rem;
   }
-  .navbar-nav li:last-of-type {
+  .navbar-nav a:last-of-type {
     margin-right: 0;
   }
   .navbar-nav li:hover {

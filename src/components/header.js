@@ -20,22 +20,22 @@ const Header = () => {
             <span></span>
           </div>
           <ul className={openMenu ? "navbar-nav show-nav" : "navbar-nav"}>
-            <li>
-              <Link to="/">
+            <Link to="/">
+              <li>
                 {"{ "}Home{" }"}
-              </Link>
-            </li>
-            <li>
-              <Link to="/portfolio">
+              </li>
+            </Link>
+            <Link to="/portfolio">
+              <li>
                 {" "}
                 {"{ "}Portfolio{" }"}
-              </Link>
-            </li>
-            <li>
-              <Link to="/laboratory">
+              </li>
+            </Link>
+            <Link to="/laboratory">
+              <li>
                 {"{ "}Laboratory{" }"}
-              </Link>
-            </li>
+              </li>
+            </Link>
           </ul>
         </nav>
       </div>
