@@ -25,6 +25,13 @@ const Portfolio = () => {
                 websiteLink="https://brave-hodgkin-799f69.netlify.app/"
                 description="A simple random recipe generator built using react, and sass."
               />
+              <Card
+                imgURL="https://res.cloudinary.com/ajanimyers/image/upload/v1606432480/photo-gallery_rwwxko.jpg"
+                stack="React, Sass"
+                githubLink="https://github.com/ajanimyers/photo-gallery"
+                websiteLink="https://vibrant-yonath-c3dc2b.netlify.app/"
+                description="A simple photo gallery built using react, and sass."
+              />
             </div>
           </div>
         </div>
